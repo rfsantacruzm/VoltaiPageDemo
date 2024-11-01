@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VOLTAI</title>
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hubballi&display=swap">    
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-themes.css"/>
+</head>
+<body>
+	<div class="head">
+		<div class="logo">
+			<a href="#">logo</a>
+		</div>
+		<nav class="navbar">
+			<a href="index.html">INICIO</a>		
+		</nav>
+	</div>
+	<header class="content home">
+		<h2 class="sub-title">Un futuro sostenible a tu alcance</h2>
+		<img src="img/flor2.png" alt="flower" class="overlay-home">
+		<img src="img/light_flower.png" alt="light_flower" class="overhome-effect">
+		<div class="btn-home">
+		</div>
+	</header>
+	<section class="content welcome">
+		<h2 id="welcomest" class="sub-title">BIENVENIDO A</h2>
+		<div>
+			<div class="left-paragraph">
+				<p>
+					Estamos comprometidos en impulsar la adopción de energías renovables
+				</p>
+			</div>
+			<div class="right-paragraph">
+				<p>
+					Aseguramos que cada proyecto beneficie económicamente a nuestros clientes
+					y contribuya a la preservación del medio ambiente
+				</p>
+			</div>
+			<img src="img/2.jpg" alt="2" class="img1">
+			<h3 class="img1-text1">Tu hogar: tu energia</h3>
+			<h4 class="img1-text2">Transforma tu techo en un activo sostenible y rentable</h4>
+		</div>
+		<div>
+			<p class="text3">
+				Instalamos tu sistema solar con transparencia total,
+				para que estés tranquilo en cada paso y cada peso invertido.
+			</p>
+			<img src="img/6.jpg" alt="6" class="img2">
+			<h3 class="img2-text1">Tu decisión: <br>nuestro compromiso</h3>
+			<h4 class="img2-text2">
+				<span class="tleft">Transforma tu energía,</span> 
+				<span class="tright">ilumina tu futuro</span> 
+			</h4>
+		</div>		
+			<h2 id="endf" class="sub-title">La hora del planeta es ahora:<br>únete a la energía solar</h2>
+	</section>
+	<section class="content service">
+		<h2 class="title">NUESTROS SERVICIOS</h2>
+		<div class="box-container">
+			<div class="boxa">
+				<img class="imgcontbox" src="img/GESTION P.png">
+				<h2 class="serviceof">Gestión de proyectos</h2>
+			</div>
+			<div class="box-container">
+				<div class="boxb">
+					<img class="imgcontbox" src="img/INSTALACION P.png">
+					<h2 id="sodif" class="serviceof">Instalación de Sistemas Fotovoltaicos On Grid</h2>
+				</div>
+			</div>
+			<div class="box-container">
+				<div class="boxc">
+					<img class="imgcontbox" src="img/CONSULTORIA.png">
+					<h2 class="serviceof">Consultoria Energética</h2>
+				</div>
+			</div>
+		</div>
+		<a href="https://wa.me/+573167276518" id="btnserv" class="btn">CONOCE MÁS</a>
+	</section>
+	<section class="content about">
+		<h1 id="calctitle" class="title">CALCULADORA<br>SOLAR</h1>
+		<p id="paragcalc">
+			Calcula el valor aproximado de inversión para
+			tu sistema fotovoltaico ideal, así como las
+			emisiones de CO2 evitadas, el total de energía generado, 
+			el ahorro anual estimado y el tiempo de retorno de tu inversión.
+		</p>
+		<h2 id="subcalc" class="sub-title">Ingresa aquí</h2>
+		<form id="solar-form">
+			<div id="leftForm">
+				<label for="User-Consum">Tu consumo mensual kWh</label>
+				<br>
+				<input type="number" id="User-Consum" required>
+			</div>
+			<div id="rightform">
+				<label for="kW-cost">Costo del kWh de tu zona</label>
+				<br>
+				<input type="number" id="kW-cost" required>
+			</div>
+			<button type="submit" id="btncalc">Calcular</button>
+    	</form>
+		<h3>
+			(Estos valores los encuentras en tu factura de servicio eléctrico)
+		</h3>
+		<h2 id="SaveANtext">Ahorro anual estimado</h2>
+		<div id="Annualsaving" class="result"></div>
+		<h2 id="EnerGentext">Energía generada (anual)</h2>
+		<div id="solarprod" class="result"></div>
+		<h2 id="Emitext">Emisiones evitadas (kg CO2)</h2>
+		<div id="emissionsavo" class="result"></div>
+		<h2 id="invetext">Inversión estimada</h2>
+		<div id="estimatedinv" class="result"></div>
+		<h2 id="retimetext">Tiempo de retorno</h2>
+		<div id="invreturntime" class="result"></div>
+    	<script src="script.js"></script>
+		<h2 id="aboutt" class="title">NOSOTROS</h2>
+		<div class="btnabout">
+		</div>
+		<img src="img/aboutimage.jpg" alt="aboutimg" id="aboutim">
+		<p class="abouttext">
+			En Voltai, somos un equipo multidisciplinario apasionado por la sostenibilidad, 
+			y nuestra experiencia y dedicación nos hacen la elección ideal para tu proyecto de energía solar. 
+			Contamos con profesionales altamente calificados en administración, ingeniería eléctrica 
+			y electrónica, como también con técnicos especializados en instalaciones fotovoltaicas.
+		</p>
+		<h2 id="contsub1" class="sub-title">¿Tienes preguntas o necesitas más información</h2>
+	</section>	
+	<section class="content contact">
+		<h2 id="contsub2" class="sub-title">sobre nuestros servicios?</h2>
+		<h2 id="contitle" class="title">CONTÁCTANOS</h2>
+		<i id="wpp" class="icon-whatsapp"></i>
+		<a href="https://wa.me/+573011624929" id="num1" class="contactnum">301 1624929</a>
+		<a href="https://wa.me/+573167276518" id="num2" class="contactnum">316 7276518</a>
+		<i id="mail" class="icon-mail"></i>
+		<a href="#" target="_blank" id="maillink">voltaienergia<br>@gmail.com</a>
+		<img id="logoindex" src="img/logo.png" alt="voltai" class="logoimg">
+	</section>
+</body>
+</html>

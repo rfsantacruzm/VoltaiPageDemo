@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+	background-color: #091f32;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #00000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+    margin-left: 30px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.navbar a:hover {
+    background: #5f5e5e54;
+}
+
+.background-img {
+    display: block;
+    height: 45%;
+}
+.overlay-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 26.8px;
+    color: #0e2454;
+    line-height: 4rem;
+    letter-spacing: 0.95rem;
+}
+
+.sub-title {
+    margin-bottom: 30px;
+    font-size: 22.661px;
+    position: absolute;
+    letter-spacing: 0.51rem;
+    line-height: 2.6rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 14.7px;
+    line-height: 2rem;
+    letter-spacing: 0.25rem;
+    color: #0e2454;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #0e2454;
+    text-decoration: none;
+    height: 2.07%;
+    width: 7.2%;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.home {
+    background: url(img/newbg/startbg.jpg);
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 119.7vh;
+}
+
+.overlay-home {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 70%;
+}
+
+.overhome-effect {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 65%;
+}
+
+.home .sub-title {
+    position: absolute;
+    color: #fff;
+    letter-spacing: 7px;
+    top: 14.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.welcome{
+    background: url(img/newbg/homebg.jpg);
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 239.8vh;
+}
+#welcomest {
+    position: absolute;
+    color: #0e2454;
+    top: 1.3%;
+    left: 38.4%;
+    letter-spacing: 0.74rem;
+    font-weight: bold;
+}
+
+.welcome .title {
+    position: absolute;
+    color: #0e2454;
+    font-weight: bold;
+    top: 9%;
+    left: 23%;
+    letter-spacing: 18px;
+}
+
+.left-paragraph {
+    text-align: left;
+    position: absolute;
+    bottom: 71.6%;
+    left: 16.4%;
+    width: 19.7%;
+}
+
+.right-paragraph {
+    text-align: right;
+    position: absolute;
+    bottom: 57%;
+    left: 17.2%;
+    width: 24%;
+}
+
+.text3 {
+    text-align: justify;
+    position: absolute;
+    top: 59.8%;
+    left: 49.6%;
+    width: 22%;
+}
+
+.img1 {
+    position: absolute;
+    top: 36.9%;
+    left: 66.6%;
+    transform: translate(-50%, -50%);
+    max-width: 33.6%;
+}
+
+.img1-text1 {
+    color: #fff6ea;
+    font-size: 43px;
+    text-align: left;
+    position: absolute;
+    bottom: 55.5%;
+    left: 52.2%;
+    width: 21%;
+    letter-spacing: 0.43rem;
+}
+
+.img1-text2 {
+    color: #fff6ea;
+    font-size: 24px;
+    text-align: left;
+    position: absolute;
+    bottom: 50.6%;
+    left: 52.2%;
+    width: 30%;
+    letter-spacing: 0.25rem;
+}
+
+.img2 {
+    position: absolute;
+    top: 62.9%;
+    left: 28.6%;
+    transform: translate(-50%, -50%);
+    max-width: 27%;
+}
+
+.img2-text1 {
+    color: #0e2454;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    bottom: 44%;
+    left: 14.8%;
+    width: 28%;
+    letter-spacing: 0.25rem;
+}
+
+.img2-text2 {
+    color: #fff6ea;
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 13.2%;
+    width: 24%;
+    letter-spacing: 0.18rem;
+}
+
+.tleft {
+    text-align: left;
+}
+.tright {
+    text-align: right;
+    position: absolute;
+    top: 100%;
+    left: 27.2%;
+    width: 90%;
+}
+
+#endf {
+    top: 88.7%;
+    left: 26.7%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service{
+    background: url(img/newbg/servicesbg.jpg);
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 119.9vh;
+    
+}
+
+.service .title {
+    position: absolute;
+    width: 20%;
+    top: 5%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .boxa, .boxb, .boxc {
+    position: absolute;
+    top: 35.6%;
+    height: 11rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rbga(0, 0, 0, .5);
+    margin: 0rem;
+}
+
+.boxa { 
+    left: 24.4%;
+}
+
+.boxb {
+    left: 45.4%;
+}
+
+.boxc {
+    left: 66.7%;
+}
+
+.box-container .imgcontbox {
+    width: 8rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.serviceof {
+    font-size: 17px;
+    line-height: 1.5rem;
+    letter-spacing: 0.28;
+    position: absolute;
+    top: 77.3%;
+    color: #fff;
+
+}
+
+#sodif {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+#btnserv {
+    position: absolute;
+    bottom: 20.5%;
+    left: 43.5%;
+}
+
+.about {
+    background: url(img/newbg/calculatorbg.jpg);
+    min-height: 359.7vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#calctitle {
+    position: absolute;
+    top: 1.3%;
+    left: 34.9%;
+    line-height: 4rem;
+    letter-spacing: 0.95rem;
+}
+
+#paragcalc {
+    position: absolute;
+    text-align: center;
+    width: 68%;
+    top: 8.4%;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+#solar-form {
+    position: absolute;
+    top: 19%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 36%;
+}
+
+input {
+    background: #fff;
+    width: 60%;
+
+}
+
+#leftForm, #rightform {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+#leftform {
+    left: 39%;
+}
+
+#rightform {
+    left: 67%;
+}
+
+#btncalc {
+    position: absolute;
+    top: 27%;
+    left: 47.8%;
+}
+
+#aboutim {
+    position: absolute;
+    max-width: 32.7%;
+    top: 55.2%;
+    right: 16.3%;
+}
+
+#aboutt {
+    position: absolute;
+    top: 56.6%;
+    left: 17.6%;
+    letter-spacing: 1.3rem;
+}
+
+.abouttext {
+    text-align: justify;
+    position: absolute;
+    top: 69.4%;
+    left: 16.2%;
+    width: 26%;
+}
+
+.btnabout {
+    background: #E1C699;
+}
+
+#btnvis {
+    position: absolute;
+    background: #eee1ca;
+    top: 64.9%;
+    left: 13.6%;
+    width: 1.9%;
+    height: 0.6%;
+}
+
+#btnmis {
+    position: absolute;
+    background: #eee1ca;
+    top: 64.9%;
+    left: 25.4%;
+    width: 1.9%;
+    height: 0.6%;
+    
+}
+
+#btnval {
+    position: absolute;
+    background: #eee1ca;
+    top: 64.9%;
+    left: 36.7%;
+    width: 1.9%;
+    height: 0.6%;
+}
+
+#mision {
+    top: 24.5%;
+    left: 43.6%;
+    letter-spacing: 12px;
+}
+
+
+.contact {
+    background: url(img/newbg/contactbg.jpg);
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 186.4vh;
+}
+
+#contsub1 {
+    top: 97.2%;
+    color: #1A3171;
+    font-size: 0.9rem;
+    letter-spacing: 0.37rem;
+}
+
+#contsub2 {
+    bottom: 96.3%;
+    color: #1A3171;
+    font-size: 0.9rem;
+    letter-spacing: 0.37rem;
+}
+
+#contitle {
+    position: absolute;
+    bottom: 73.5%;
+    letter-spacing: 1.27rem;
+    left: 34.4%;
+}
+
+#wpp {
+    position: absolute;
+    left: 11.4%;
+    top: 38.2%;
+    color: #0e2454;
+    font-size: 7.2rem;
+}
+
+#mail {
+    position: absolute;
+    left: 44.6%;
+    top: 38.9%;
+    color: #0e2454;
+    font-size: 6.4rem;
+}
+
+#ig {
+    left: 76.3%;
+}
+
+.contactnum {
+    text-decoration: none;
+    position: absolute;
+    left: 10.4%;
+    color: #0e2454;
+    font-size: 1.2rem;
+    letter-spacing: 0.49rem;
+}
+
+#num1 {
+    top: 50.1%;
+}
+
+#num2 {
+    top: 53.1%;
+}
+
+#maillink {
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.3rem;
+    position: absolute;
+    top: 48.9%;
+    left: 41.5%;
+    color: #0e2454;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.logoimg {
+    width: 25%;
+    position: absolute;
+    top: 70.4%;
+    left: 37.4%;
+
+}
+
+#logoindex {
+    bottom: 25%;
+}
+.aboutstart {
+    background: url(img/NOSOTROS1.jpg);
+    height: 239.5vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.aboutend {
+    background: url(img/NOSOTROS2.jpg);
+    height: 239.9vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#abouttitle {
+    position: absolute;
+    top: 8.6%;
+    left: 29.2%;
+    letter-spacing: 40px;
+}
+
+#paragmi {
+    position: absolute;
+    top: 33%;
+    left: 16%;
+    text-align: justify;
+    width: 68%;
+    letter-spacing: 8px;
+
+}
+
+#vision {
+    top: 67.7%;
+    left: 43.6%;
+    letter-spacing: 12px;
+}
+
+#paragvi {
+    position: absolute;
+    top: 75.5%;
+    left: 16%;
+    text-align: justify;
+    width: 68%;
+    letter-spacing: 6px;
+
+}
+
+#ourv {
+    top: 3%;
+    left: 30.7%;
+    letter-spacing: 13px;
+}
+
+#paragva {
+    position: absolute;
+    top: 10.4%;
+    left: 16%;
+    text-align: justify;
+    width: 68%;
+    letter-spacing: 5px;
+
+}
+
+#ourteam {
+    top: 33.7%;
+    left: 32.3%;
+    letter-spacing: 14px;
+}
+
+#paragt {
+    position: absolute;
+    top: 41.5%;
+    left: 16%;
+    text-align: justify;
+    width: 68%;
+    letter-spacing: 8px;
+
+}
+
+#logoabout {
+    bottom: 15%;
+}
+
+.serviceheader {
+    background: url(img/SERVICIOS1.jpg);
+    height: 119.7vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#servicetitle {
+    position: absolute;
+    top: 12%;
+    left: 40.4%;
+    width: 9%;
+    text-align: center;
+}
+
+#presentser {
+    position: absolute;
+    top: 45%;
+    letter-spacing: 6px;
+    line-height: 1.5;
+    width: 79.8%;
+    left: 10.7%;
+    font-size: 19px;
+}
+
+#serv1 {
+    position: absolute;
+    top: 4%;
+    left: 33.6%;
+    font-size: 240%;
+    letter-spacing: 6px;
+    color: #fff;
+}
+
+.servicep2 {
+    background: url(img/SERVICIOS2.jpg);
+    height: 239.5vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.servicep3 {
+    background: url(img/SERVICIOS3.jpg);
+    height: 239.5vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.servicep4 {
+    background: url(img/SERVICIOS4.jpg);
+    height: 239.5vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.servicep5 {
+    background: url(img/SERVICIOS5.jpg);
+    height: 119.8vh;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#logoservices {
+    bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 160vh;
+    }
+}
